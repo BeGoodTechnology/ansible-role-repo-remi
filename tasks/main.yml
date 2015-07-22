@@ -1,7 +1,7 @@
 ---
 # Remi yum repository.
 - name: Install remi repo.
-  yum: 
+  yum:
     name: "{{ remi_repo_url }}"
     state: present
 
